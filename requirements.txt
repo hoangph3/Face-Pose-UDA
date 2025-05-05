@@ -1,0 +1,7 @@
+-r requirements/build.txt
+-r requirements/runtime.txt
+-r requirements/tests.txt
+-r requirements/optional.txt
+mmcv==1.7.0
+mmpose==0.29.0
+numpy==1.26.4
