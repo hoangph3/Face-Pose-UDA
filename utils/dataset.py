@@ -11,7 +11,7 @@ from utils.processing import warp_image_and_keypoints, detect_largest_face
 class FaceKeypointDataset(Dataset):
     def __init__(self, data_dir, output_size=(256, 256), transform=None):
         self.data_dir = data_dir
-        self.output_size = output_size  # (h, w)
+        self.output_size = output_size  # (w, h)
         self.image_files = sorted([
             f for f in os.listdir(data_dir)
             if f.lower().endswith('.jpg') or f.lower().endswith('.jpeg') or f.lower().endswith('.png')
