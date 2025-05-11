@@ -1,6 +1,7 @@
 # Data & Logs
 data/
 data_split/
+data_unlabeled/
 ckpts/
 logs/
 visualize_results/
